@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"
+        <meta charset = "UTF-8">
+        <title>
+            WebpageProject
+        </title>
+        <link rel="icon" type="image/png" href="./images/faviLogo.png" >
+        <script src="script.js"> </script>
+    </head>
+
+    <body>
+        <div class="headerBar"> 
+             <div class="logo">
+                <img src="./images/Logo.jpg" alt="its a shrug face" height=100px width=100px> 
+            </div>
+
+            <h1>
+
+                Whoopsies!
+
+            </h1>
+           <ul>
+                <li> <a href = "../webpageContact/index.html">Contact</a> </li>
+                <li> <a href="../CanvasDynamicMouse/index.html"> Play </a> </li>
+                <li><a href="./index.html" class="active"> Home </a>  </li>
+            </ul>
+
+ 
+        </div>
+        
+        <!-- <div class="contentGuide">
+
+            <p> content</p>
+
+
+        </div> -->
+        <div class="container">
+
+            <div style="cursor: pointer;" onclick="showContentMenu()">
+                <img src="./images/menu.png" class="icon" id= "menuIcon" height="25px" width="25px"> 
+            </div>
+            <div id="contentMenu" class="menu">
+
+
+                <a href="#" onclick="hideContentMenu()" class="closeBtn" > &times; </a>
+                <a href="#" onclick="toggleContentDisplay('Content1')" > bigBox  </a>
+                    <div class="img">  </div>
+                    <div class="text"> </div>
+                <a href="#"> OtherContent  </a>
+                <a href="#"> moreBoxes  </a>
+
+            </div>
+            
+        
+            
+            <div id= "Content1" class="bigbox">
+
+                
+                <div class = "sidebar">
+                    
+                    <!-- <img src="./images/menu.png" height="25px" width="25px"> -->
+
+
+                </div>
+
+                <div class="textbox">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+
+                <div class ="jpeg">
+                    <img src="./images/NatureImage-banff.jpg" alt="i think this is moraine lake">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
