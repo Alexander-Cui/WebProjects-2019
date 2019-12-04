@@ -1,0 +1,163 @@
+body {
+    /* background-color: #FFEDED; */
+    background-color: #256666;
+    padding: 0;
+    margin: 0;
+}
+
+/* canvas {
+
+    position: absolute;
+    top: 100px;
+
+} */
+
+.headerBar {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #662525;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.bigbox {
+    display: none;
+    margin-left: 200px;
+    overflow:hidden;
+
+}
+
+/* .contentGuide {
+
+    height: 100%;
+    width: 200px;
+
+} */
+
+
+h1{
+    position: relative;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+}
+
+ul {
+    position: absolute;
+    list-style-type: none;
+    text-align: right;
+    background-color: #333;
+    bottom: 0;
+    right:0;
+    padding: 5px 0px 5px 0px;
+    margin:0;
+    overflow: hidden;
+}
+
+li {
+    display: block;
+    float: right;
+    color: 	#ccccc5;
+    padding: 0;
+    margin:0;
+}
+
+li a {
+    padding: 8px 8px 8px 8px;
+    margin:0;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: 	#ccccc5;
+    
+    color: green;
+    background-color: #333;
+    text-decoration: none;
+}
+ a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    background-color:#ccccc5;
+}
+
+/* a.active{
+
+    background-color:	#333;
+    color: yellow;
+
+} */
+
+#home .home, #play .play, #contact .contact {
+
+    background-color: #C93A2A;
+    color: #FFDF8F;
+
+}
+
+.logo {
+    float:left;
+    overflow: hidden;
+}
+
+
+
+.jpeg {
+    z-index: -1;
+}
+
+.icon {
+
+    float:left;
+    transition: 0.3s;
+
+}
+
+.menu{
+
+    height: 100%;
+    width: 0;
+    overflow-x: hidden;
+    position: fixed;
+    float: left;
+    top: 100px;
+    left: 0px;
+    transition: 0.5s;
+    background-color: 	#256666;
+    display: block;
+}
+
+.menu a{
+
+    margin: 20px 0px 20px 0px;
+    font-size: 20px;
+
+}
+
+.menu .closeBtn{
+    /* padding: 15px 0px 0px 0px;  */
+    font-size: 25px;
+    margin-left: 170px;
+    padding: 8px;
+    padding-top: 20px;
+    position: relative;
+
+
+}
+
+
+.container {
+
+    position: relative;
+
+}
+
